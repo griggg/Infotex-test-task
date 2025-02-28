@@ -37,14 +37,14 @@ test - скомпилированный test_logger.cpp, генерируетс�
 Находясь в одной директории с Makefile, нужно ввести в консоль:
 
 ```
-$ make
-$ LD_LIBRARY_PATH=log_library ./test_app/test_app <log_file> <log_level>
+make
+LD_LIBRARY_PATH=log_library ./test_app/test_app <log_file> <log_level>
 ```
 
 Если не сработало, то нужно ввести 
 
 ```
-$ ./test_app/test_app <log_file> <log_level>
+./test_app/test_app <log_file> <log_level>
 ```
 
 log_level = INFO | WARNING | ERROR 
