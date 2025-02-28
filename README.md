@@ -3,10 +3,10 @@
 <h2>Структура проекта</h2>
 
 ```
-/log_library
+/log_library 
     /log_library/liblog.so
     /log_library/log.cpp
-    /log_library/log,h
+    /log_library/log.h
 /test_app
     /test_app/main.cpp
     /test_app/test_app
