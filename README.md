@@ -48,9 +48,8 @@ $ ./test_app/test_app <log_file> <log_level>
 ```
 
 log_level = INFO | WARNING | ERROR 
+
 При сборке автоматически запускаются тесты
-
-
 
 #   I n f o t e x - t e s t - t a s k 
  
