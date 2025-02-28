@@ -2,7 +2,7 @@
 
 <h2>Структура проекта</h2>
 
-
+```
 /log_library
     /log_library/liblog.so
     /log_library/log.cpp
@@ -15,6 +15,7 @@
 Makefile
 README.md
 test
+```
 
 liblog.so - динамическая библиотека логгера, генерируется make
 log.cpp - код логгера
