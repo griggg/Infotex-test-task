@@ -12,7 +12,7 @@ std::condition_variable queue_cv;
 bool running = true;
 
 void logWorker(std::shared_ptr<Logger> logger) {
-    // функция получает сообщения из очереди и обрабатывает их
+    // функция обрабатывает сообщения о логирровании из очереди
     while (running) {
         std::unique_lock<std::mutex> lock(queue_mutex);
         queue_cv.wait(lock, [] { return !log_queue.empty() || !running; });
