@@ -4,20 +4,20 @@
 
 ```
 /log_library 
-    /log_library/liblog.so
+    /log_library/liblog.so [генерируется make]
     /log_library/log.cpp
     /log_library/log.h
 /test_app
     /test_app/main.cpp
-    /test_app/test_app
+    /test_app/test_app [генерируется make]
 /tests
     /tests/test_logger.cpp
 Makefile
 README.md
-test
+test [генерируется make]
 ```
 
-liblog.so - динамическая библиотека логгера, генерируется make
+liblog.so - динамическая библиотека логгера, [генерируется make]
 
 log.cpp - код логгера
 
@@ -25,11 +25,11 @@ log.h - заголовочные файлы логгера
 
 main.cpp - консольные интерфейс для работы с логгером
 
-test_app - скомпилированный файл main.cpp, генерируется make
+test_app - скомпилированный файл main.cpp, [генерируется make]
 
 test_logger.cpp - тесты логгера
 
-test - скомпилированный test_logger.cpp, генерируется make
+test - скомпилированный test_logger.cpp, [генерируется make]
     
     
     
